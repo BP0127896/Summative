@@ -1,0 +1,661 @@
+/*	Header Start
+    ==================================================*/
+    
+/* style for the header to be black */
+.header {
+  overflow: hidden;
+  background-color: black;
+  padding: 5px 5px;
+ 
+}
+
+/* style for the logo to appear in the header */
+.logo {
+  float: left;
+  margin: 10px;
+}
+
+/*	Header End
+    ==================================================*/
+
+/*	Nav Start
+    ==================================================*/
+    
+ /* set the style for navbar page colour to white */   
+.nav-main > li a {
+	padding: 18px 15px;
+	color: white;
+	font-size: 15px;
+}
+
+/* style for navbar to become center  */
+.navbar-nav {
+	float: none;
+	text-align: center;
+}
+
+/* style for navbar hover to appear grey */
+.nav-main > li a:hover {
+    background-color: grey;
+}
+
+/* style for the navbar position */
+.navbar-nav>li {
+	float: none;
+	display: inline-block;
+	margin:0 10px;
+}
+
+/*	End Of Nav Start
+    ==================================================*/
+    
+/*	Start Of body for Home Page
+    ==================================================*/
+    
+ /* style for the home page background color  */
+.html, body {
+    width: 1410px;
+    background-color: #ebebe0;
+    padding-top: 0px; 
+}
+
+/*style for the home page middle text positioning and background color*/     
+.text {
+    position: relative;
+    background-color: #ffff99;
+    width: 380px;
+    padding: 35px;
+    top: 10px;
+    right: -500px;
+}
+   
+/* style for the home page middle paragraph font size */
+.text p {
+    font-size: 18px;
+}
+
+/* style for the home page left picure and positioning */ 
+.picture1 {
+    position: absolute;
+    left: -410px;
+    right: 300px;
+    padding: 0px;
+    margin: 430px;
+    position:absolute;
+    top: 55px;
+}
+
+/* style for the home page left text box color and positioning */  
+.text-box1 {
+    background-color: #ffff99;
+    position: absolute;
+    top: 800px;
+    bottom:500px;
+    left: 20px;
+    right: 10px;
+    width: 420px;
+    height: 305px;
+    padding: 10px;    
+    margin: 0;
+}
+
+/* style for the home page left paragraph font size */
+.text-box1 p {
+    font-size: 18px;
+}
+
+/* style for the home page right picture and positioning */    
+.picture2 {
+    position: absolute;
+    left: 500px;
+    right: 350px;
+    width: 450px;
+    padding: 0px;
+    margin: 430px;
+    position:absolute;
+    top: 55px;
+    right: 80px;
+}
+
+/* style for the home page right text box color and positioning */  
+.text-box2 {
+    background-color: #ffff99;
+    position: absolute;
+    top: 800px;
+    bottom:850px;
+    left: 930px;
+    right: 10px;
+    width: 470px;
+    height: 305px;
+    padding: 5px;    
+    margin: 0;
+}
+
+/* style for the home page right paragraph font size */
+.text-box2 p {
+    font-size: 18px
+}
+
+/*	End Of body for Home Page
+    ==================================================*/
+    
+/*	Start Of body for About us Page
+    ==================================================*/
+
+/* style for the about us page cover image and positioning */
+.hero-image {
+  background: url(img/page1.jpg) no-repeat center; 
+  background-size: cover;
+  height: 1250px;
+  position: relative;
+  padding: 10px;
+  width: 1410px
+}
+
+
+/* style for the about us page text color and positioning */
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 1%;
+  bottom: 120%;
+  left: 49%;
+  transform: translate(-50%, -50%);
+  color: black;
+}
+
+/* style for the about us page paragraph font size */
+.hero-text p {
+font-size: 22px;
+}
+
+/* style for the about us page first left picture positioning */
+.about1 {
+    position: absolute;
+    left: -410px;
+    right: 300px;
+    width: 300px;
+    padding: 0px;
+    margin: 430px;
+    position:absolute;
+    top: -350px;
+    right: 80px;
+}
+
+/* style for the about us page second left picture positioning */   
+.about2 {
+    position: absolute;
+    left: -410px;
+    right: 300px;
+    width: 300px;
+    padding: 0px;
+    margin: 430px;
+    position:absolute;
+    top: -20px;
+    right: 80px;
+}
+
+/* style for the about us page first right picture positioning */  
+.about3 {
+    position: absolute;
+    left: 1085px;
+    right: 300px;
+    width: 300px;
+    padding: 0px;
+    position:absolute;
+    top: 680px;
+    right: 100px;
+}
+ 
+/* style for the about us page second right picture positioning */   
+.about4 {
+    position: absolute;
+    left: 655px;
+    right: 300px;
+    width: 300px;
+    padding: 0px;
+    margin: 430px;
+    position:absolute;
+    top: 600px;
+    right: 100px;
+}
+/*	End Of body for About us Page
+    ==================================================*/
+    
+/*	Start Of body for How it works Page
+    ==================================================*/
+
+/* style for the how it works page cover picture positioning */
+.instructions {
+    position: absolute;
+    left: -430px;
+    right: 350px;
+    padding: -20px;
+    margin: 430px;
+    top: -363px;
+    right: 80px;
+}
+
+/* style for the how it works page right picture and positioning */    
+.instructions1 {
+    position: absolute;
+    left: 100px;
+    right: 350px;
+    padding: -20px;
+    margin: 430px;
+    top: 100px;
+    right: 80px;
+}
+
+/*style for the how it works page left text box color and positioning */   
+.steps {
+    position: relative;
+    background-color: #ffff99;
+    width: 450px;
+    padding: 29px;
+    top: 460px;
+    right: -65px;
+}
+
+/* style for the how it works page first paragraph font size */    
+.steps-text p {
+    font-size: 18px;
+}
+
+/* style for the how it works page youtube video and positioning */    
+.youtube {
+    position: absolute;
+    top: 1170px;
+    left: 550px;
+}
+
+/* style for the how it works page youtube heading and positioning */
+.text3 h1{
+    position: absolute;
+    color: black;
+    font-size: 32px;
+    top: 1100px;
+    left: 550px;
+}
+
+/*	End Of body for How it works Page
+    ==================================================*/
+    
+/*	Start Of Menu Page
+    ==================================================*/
+
+/* style for the menu page cover image and positioning */
+.hero-image2 {
+  background: url(img/menu-background2.jpg) no-repeat center; 
+  background-size: cover;
+  height: 2000px;
+  font-size:12px;
+  position: relative;
+  padding: 10px;
+}
+
+/* style for the menu page title text and positioning */
+.menu-text  {
+   position: absolute;
+   background: #f5f5f0;
+   border-style: solid;
+   border-color: black;
+   color: #663300;
+   top: 50px;
+   left: 520px;
+}
+
+/* style for the menu page first picture and positioning */
+.recipe1 {
+    position: absolute;
+    left: -410px;
+    right: 300px;
+    padding: 0px;
+    margin: 430px;
+    position:absolute;
+    top: -130px;
+}
+
+/* style for the menu page first text box color and positioning */   
+.recipe1-text {
+    background-color: #e0ebeb;
+    position: absolute;
+    top: 550px;
+    bottom:400px;
+    left: 20px;
+    right: 10px;
+    width: 420px;
+    height: 180px;
+    padding: 5px;    
+    margin: 0px;
+}
+
+
+/* style for the menu page second picture and positioning */
+.recipe2 {
+    position: absolute;
+    left: 30px;
+    right: 300px;
+    padding: 0px;
+    margin: 430px;
+    position:absolute;
+    top: -130px;
+}
+
+/* style for the menu page second text box color and positioning */   
+.recipe2-text {
+    background-color: #e0ebeb;
+    position: absolute;
+    top: 550px;
+    bottom:400px;
+    left: 460px;
+    right: 10px;
+    width: 420px;
+    height: 180px;
+    padding: 5px;    
+    margin: 0;
+}
+
+/* style for the menu page thirs picture and positioning */
+.recipe3 {
+    position: absolute;
+    left: 470px;
+    right: 10px;
+    padding: 0px;
+    margin: 430px;
+    position:absolute;
+    top: -130px;
+}
+
+/* style for the menu page third text box color and positioning */   
+.recipe3-text {
+    background-color: #e0ebeb;
+    position: absolute;
+    top: 550px;
+    bottom:400px;
+    left: 900px;
+    right: 10px;
+    width: 420px;
+    height: 180px;
+    padding: 5px;    
+    margin: 0;
+}
+
+/* style for the menu page forth picture and positioning */
+.recipe4 {
+    position: absolute;
+    left: -410px;
+    right: 300px;
+    padding: 0px;
+    margin: 430px;
+    position:absolute;
+    top: 330px;
+}
+
+/* style for the menu page forth text box color and positioning */   
+.recipe4-text {
+    background-color: #e0ebeb;
+    position: absolute;
+    top: 1000px;
+    bottom:500px;
+    left: 20px;
+    right: 10px;
+    width: 420px;
+    height: 180px;
+    padding: 10px;    
+    margin: 0;
+}
+
+/* style for the menu page fifth picture and positioning */
+.recipe5 {
+    position: absolute;
+    left: 30px;
+    right: 300px;
+    padding: 0px;
+    margin: 430px;
+    position:absolute;
+    top: 330px;
+}
+
+/* style for the menu page fifth text box color and positioning */   
+.recipe5-text {
+    background-color: #e0ebeb;
+    position: absolute;
+    top: 1000px;
+    bottom:500px;
+    left: 460px;
+    right: 10px;
+    width: 420px;
+    height: 180px;
+    padding: 10px;    
+    margin: 0;
+}
+
+/* style for the menu page sixth picture and positioning */
+.recipe6 {
+    position: absolute;
+    left: 470px;
+    right: 500px;
+    padding: 0px;
+    margin: 430px;
+    position:absolute;
+    top: 330px;
+}
+
+/* style for the menu page sixth text box color and positioning */  
+.recipe6-text {
+    background-color: #e0ebeb;
+    position: absolute;
+    top: 1000px;
+    bottom:500px;
+    left: 900px;
+    right: 10px;
+    width: 420px;
+    height: 180px;
+    padding: 10px;    
+    margin: 0;
+}
+
+/* style for the menu page seventh picture and positioning */
+.recipe7 {
+    position: absolute;
+    left: 470px;
+    right: 500px;
+    padding: 0px;
+    margin: 430px;
+    position:absolute;
+    top: 780px;
+}
+
+/* style for the menu page seventh text box color and positioning */   
+.recipe7-text { 
+    background-color: #e0ebeb;
+    position: absolute;
+    top: 1460px;
+    bottom:500px;
+    left: 900px;
+    right: 10px;
+    width: 420px;
+    height: 180px;
+    padding: 10px;    
+    margin: 0;
+}
+/* style for the menu page eighth picture and positioning */
+.recipe8 {
+    position: absolute;
+    left: 30px;
+    right: 500px;
+    padding: 0px;
+    margin: 430px;
+    position:absolute;
+    top: 780px;
+}
+
+/* style for the menu page eighth text box color and positioning */  
+.recipe8-text {
+    background-color: #e0ebeb;
+    position: absolute;
+    top: 1460px;
+    bottom:500px;
+    left: 460px;
+    right: 10px;
+    width: 420px;
+    height: 180px;
+    padding: 10px;    
+    margin: 0;
+}
+
+/* style for the menu page ninth picture and positioning */
+.recipe9 {
+    position: absolute;
+    left: -410px;
+    right: 500px;
+    padding: 0px;
+    margin: 430px;
+    position:absolute;
+    top: 780px;
+}
+
+/* style for the menu page ninth text box color and positioning */   
+.recipe9-text {
+    background-color: #e0ebeb;
+    position: absolute;
+    top: 1460px;
+    bottom:500px;
+    left: 20px;
+    right: 10px;
+    width: 420px;
+    height: 180px;
+    padding: 10px;    
+    margin: 0;
+}
+
+/*	End Of Menu Page
+    ==================================================*/
+    
+/*	Start Of Contact us Page
+    ==================================================*/
+
+/* style for the contact us page cover image and positioning */
+.hero-image3 {
+  background: url(img/contact.jpg) no-repeat center; 
+  background-size: cover;
+  height: 1530px;
+  width: 1349px;
+  position: relative;
+}
+
+/* style for the contact us page main heading and positioning  */
+.contact-us {
+  position: absolute;
+  color: black;
+  top: 100px;
+  left:20px
+}
+
+/* style for the contact us page information and postioning */
+.contact-info {
+  position: absolute;
+  font-size: 22px;
+  color: black;
+  width: 1000px;
+  top: 280px;
+  left: 20px;
+}
+
+/* style for the contact us page form layout and positioning */
+.form-position {
+   position: relative;
+   font-size:20px;
+   top: -600px;
+   right:-20px;
+}
+
+/*	End Of Contact us Page
+    ==================================================*/
+   
+/*	Start Of footer
+    ==================================================*/
+
+/* style for the home page footer size and positiong */
+.footer1 {
+   position: Absolute;
+   left: 0;
+   top: 1200px;
+   bottom: 0px;
+   width: 110%;
+   padding: 100px;
+   background-color: #262626;
+   color: white;
+   text-align: center;
+}
+
+/* style for about us page footer size and positiong */
+.footer2 {
+   position: Absolute;
+   left: 0;
+   top: 1300px;
+   bottom: 0px;
+   width: 104.5%;
+   padding: 100px;
+   background-color: #262626;
+   color: white;
+   text-align: center;
+}
+
+/* style for the how it works page footer size and positiong */
+.footer3 {
+   position: Absolute;
+   left: 0;
+   top: 1600px;
+   bottom: 0px;
+   width: 105%;
+   padding: 100px;
+   background-color: #262626;
+   color: white;
+   text-align: center;
+}
+
+/* style for the menu page footer size and positiong */
+.footer4 {
+   position: Absolute;
+   left: 0;
+   top: 2000px;
+   bottom: 0px;
+   width: 100%;
+   padding: 100px;
+   background-color: #262626;
+   color: white;
+   text-align: center;
+}
+
+/* style for the contact us page footer size and positiong */   
+.footer5 {
+    position: Absolute;
+   left: 0;
+   top: 1600px;
+   bottom: 0px;
+   width: 100%;
+   padding: 150px;
+   background-color: #262626;
+   color: white;
+   text-align: center;
+}
+
+/* style for the instagram icon color and background color */
+.fa fa-instagram {
+  background: #125688;
+  color: white;
+  width: 10px;
+  height: 10px;
+}
+
+
+/*	End Of footer
+    ==================================================*/
+
+
+    
+    
+
+ 
